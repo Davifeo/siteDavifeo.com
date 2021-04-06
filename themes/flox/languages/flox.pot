@@ -1,0 +1,1419 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FLOX\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-22 13:56+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.3"
+
+#. 1: Plugin name 2: Elementor
+#: inc/includes/theme-functions.php:66
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#: inc/ckav-elements/pricing.php:110
+msgid "$30"
+msgstr ""
+
+#: comments.php:43
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: comments.php:42
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/ckav-elements/pricing.php:117
+msgid "/ Hour"
+msgstr ""
+
+#: inc/ckav-elements/pricing.php:43
+#: framework-customizations/theme/options/customizer-blog.php:41
+msgid "1"
+msgstr ""
+
+#: inc/ckav-elements/pricing.php:44
+#: framework-customizations/theme/options/customizer-blog.php:42
+msgid "2"
+msgstr ""
+
+#: inc/ckav-elements/experience.php:52
+msgid "2011 2019"
+msgstr ""
+
+#: inc/ckav-elements/pricing.php:45
+#: framework-customizations/theme/options/customizer-blog.php:43
+msgid "3"
+msgstr ""
+
+#: inc/ckav-elements/pricing.php:46
+msgid "4"
+msgstr ""
+
+#: 404.php:6
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/includes/template-tags.php:220
+msgid "<span class=\"meta-nav\">Next Post</span>%title"
+msgstr ""
+
+#: inc/includes/template-tags.php:219
+msgid "<span class=\"meta-nav\">Previous Post</span>%title"
+msgstr ""
+
+#: inc/includes/template-tags.php:216
+msgid "<span class=\"meta-nav\">Published In</span>%title"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-info.php:36
+msgid "Add"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-social.php:9
+msgid "Add your social profiles"
+msgstr ""
+
+#: inc/ckav-elements/button.php:106
+msgid "Alignment"
+msgstr ""
+
+#: inc/ckav-elements/templates/portfolio/style1.php:37
+msgid "All"
+msgstr ""
+
+#: inc/includes/option-types/ckav-icon/view.php:39
+msgid "All Categories"
+msgstr ""
+
+#: framework-customizations/theme/options/common-options-bg.php:240
+msgid ""
+"All file name must be same name. <strong>Example: video.webm, video.ogv, "
+"video.mp4 and video.jpg</strong>"
+msgstr ""
+
+#: functions.php:57
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: template-parts/pageheader.php:5
+msgid "All posts by"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-defaultcolors.php:13
+msgid "Apply dark theme?"
+msgstr ""
+
+#: inc/ckav-elements/blogposts.php:99 inc/ckav-elements/education.php:89
+#: inc/ckav-elements/experience.php:103 inc/ckav-elements/portfolio.php:174
+#: inc/ckav-elements/pricing.php:185 inc/ckav-elements/skills.php:85
+#: inc/ckav-elements/testimonials.php:170
+msgid "Apply light theme?"
+msgstr ""
+
+#: inc/ckav-elements/experience.php:59 inc/ckav-elements/testimonials.php:78
+msgid "Art Director"
+msgstr ""
+
+#: framework-customizations/theme/options/common-options-bg.php:133
+msgid "Background attachment fixed?"
+msgstr ""
+
+#: framework-customizations/theme/options/common-options-bg.php:36
+msgid "Background color"
+msgstr ""
+
+#: framework-customizations/theme/options/common-options-bg.php:145
+msgid "Background position"
+msgstr ""
+
+#: framework-customizations/theme/options/common-options-bg.php:162
+msgid "Background repeat"
+msgstr ""
+
+#: framework-customizations/theme/options/common-options-bg.php:174
+msgid "Background size"
+msgstr ""
+
+#: framework-customizations/theme/options/common-options-bg.php:111
+msgid "Background type"
+msgstr ""
+
+#: inc/ckav-elements/pricing.php:66
+msgid "Basic"
+msgstr ""
+
+#: template-parts/pageheader.php:18
+msgid "Blog home"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-blog.php:37
+msgid "Blog post grid"
+msgstr ""
+
+#: inc/ckav-elements/blogposts.php:15
+msgid "Blog posts"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-defaultcolors.php:88
+msgid "Body background"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-defaultcolors.php:75
+msgid "Body font"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-typography-general.php:10
+msgid "Body fonts"
+msgstr ""
+
+#: inc/ckav-elements/blogposts.php:108
+msgid "Box background"
+msgstr ""
+
+#: inc/includes/option-types/ckav-icon/class-fw-option-type-ckav-icon.php:199
+msgid "Brand Icons"
+msgstr ""
+
+#: inc/ckav-elements/button.php:15 inc/ckav-elements/button.php:41
+#: framework-customizations/theme/options/customizer-info.php:85
+msgid "Button"
+msgstr ""
+
+#: inc/ckav-elements/pricing.php:156
+msgid "Button color"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-info.php:86
+msgid "Button details"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-typography-general.php:73
+msgid "Button fonts"
+msgstr ""
+
+#: inc/ckav-elements/pricing.php:123
+msgid "Button Text"
+msgstr ""
+
+#: inc/ckav-elements/button.php:38
+#: framework-customizations/theme/options/customizer-info.php:93
+msgid "Button text"
+msgstr ""
+
+#: inc/ckav-elements/button.php:48 inc/ckav-elements/pricing.php:130
+msgid "Button URL"
+msgstr ""
+
+#: inc/includes/template-tags.php:320
+msgid "by&nbsp;"
+msgstr ""
+
+#. Author of the theme
+msgid "C-Kav"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer.php:50
+msgid "C.Kav - Additional JS"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer.php:36
+msgid "C.Kav - Blog"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer.php:19
+msgid "C.Kav - Footer"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer.php:12
+msgid "C.Kav - Info section"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer.php:43
+msgid "C.Kav - Social"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer.php:26
+msgid "C.Kav - Theme customization"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-footer.php:8
+msgid "C.Kav.Art"
+msgstr ""
+
+#: inc/ckav-elements/blogposts.php:131 inc/ckav-elements/testimonials.php:120
+msgid "Carousel items"
+msgstr ""
+
+#: inc/ckav-elements/button.php:114 inc/ckav-elements/portfolio.php:193
+#: inc/ckav-elements/title.php:166
+msgid "Center"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-defaultcolors.php:37
+msgid "Changing theme will reset your selected colors"
+msgstr ""
+
+#: inc/ckav-elements/title.php:39
+msgid "Choose Style"
+msgstr ""
+
+#: inc/ckav-elements/ckav-elements.php:139
+msgid "Ckav Pack"
+msgstr ""
+
+#: inc/helpers.php:90 inc/includes/template-tags.php:98
+msgid "Click here to setup menu"
+msgstr ""
+
+#: template-parts/portfolio-pageheader.php:22
+msgid "Client: "
+msgstr ""
+
+#: inc/ckav-elements/button.php:81 inc/ckav-elements/title.php:110
+msgid "Color"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-defaultcolors.php:42
+msgid "Color theme 1"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-defaultcolors.php:43
+msgid "Color theme 2"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-defaultcolors.php:44
+msgid "Color theme 3"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-defaultcolors.php:45
+msgid "Color theme 4"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-defaultcolors.php:36
+msgid "Color themes"
+msgstr ""
+
+#: inc/ckav-elements/blogposts.php:145 inc/ckav-elements/portfolio.php:86
+#: inc/ckav-elements/testimonials.php:134
+msgid "Columns"
+msgstr ""
+
+#: comments.php:71
+#, php-format
+msgctxt "comment"
+msgid "One comment"
+msgid_plural "Comments (%1$s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:76 comments.php:95
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:107
+msgid "Comments"
+msgstr ""
+
+#: comments.php:105
+msgid "Comments are closed."
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-typography-themetitles.php:53
+msgid "Content - Title"
+msgstr ""
+
+#: inc/ckav-elements/blogposts.php:33 inc/ckav-elements/button.php:33
+#: inc/ckav-elements/education.php:33 inc/ckav-elements/experience.php:33
+#: inc/ckav-elements/portfolio.php:34 inc/ckav-elements/pricing.php:33
+#: inc/ckav-elements/skills.php:33 inc/ckav-elements/testimonials.php:33
+#: inc/ckav-elements/title.php:33
+msgid "Content section"
+msgstr ""
+
+#: inc/ckav-elements/title.php:43
+msgid "Content title"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-footer.php:7
+msgid "Copyright text"
+msgstr ""
+
+#: inc/includes/option-types/ckav-icon/class-fw-option-type-ckav-icon.php:195
+msgid "Currency Icons"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-info.php:57
+#: framework-customizations/theme/options/customizer-social.php:31
+msgid "Custom Upload"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-defaultcolors.php:28
+#: framework-customizations/theme/options/customizer-defaultcolors.php:89
+#: framework-customizations/theme/options/customizer-defaultcolors.php:102
+msgid "Customization"
+msgstr ""
+
+#: inc/ckav-elements/button.php:86 inc/ckav-elements/pricing.php:161
+#: framework-customizations/theme/options/customizer-defaultcolors.php:60
+msgid "Dark"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-defaultcolors.php:41
+msgid "Dark theme"
+msgstr ""
+
+#: inc/ckav-elements/button.php:71 inc/ckav-elements/button.php:84
+#: inc/ckav-elements/portfolio.php:119 inc/ckav-elements/pricing.php:159
+#: framework-customizations/theme/options/customizer-defaultcolors.php:50
+msgid "Default"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-defaultcolors.php:40
+msgid "Default theme"
+msgstr ""
+
+#: inc/includes/theme-demos.php:14
+msgid "Demo 01"
+msgstr ""
+
+#: inc/includes/theme-demos.php:19
+msgid "Demo 02"
+msgstr ""
+
+#: inc/includes/theme-demos.php:24
+msgid "Demo 03"
+msgstr ""
+
+#: inc/includes/theme-demos.php:29
+msgid "Demo 04"
+msgstr ""
+
+#: inc/includes/theme-demos.php:34
+msgid "Demo 05"
+msgstr ""
+
+#: inc/includes/theme-demos.php:39
+msgid "Demo 06"
+msgstr ""
+
+#: inc/ckav-elements/education.php:64 inc/ckav-elements/experience.php:71
+#: inc/ckav-elements/testimonials.php:83
+#: framework-customizations/theme/options/customizer-info.php:41
+msgid "Description"
+msgstr ""
+
+#: inc/ckav-elements/education.php:67 inc/ckav-elements/experience.php:74
+#: inc/ckav-elements/testimonials.php:86
+msgid "Description text"
+msgstr ""
+
+#: inc/includes/option-types/ckav-icon/class-fw-option-type-ckav-icon.php:197
+msgid "Directional Icons"
+msgstr ""
+
+#: inc/ckav-elements/blogposts.php:40 inc/ckav-elements/portfolio.php:40
+msgid "Display items"
+msgstr ""
+
+#: inc/ckav-elements/blogposts.php:119 inc/ckav-elements/testimonials.php:109
+msgid "Display style"
+msgstr ""
+
+#: inc/ckav-elements/pricing.php:116
+msgid "Duration text"
+msgstr ""
+
+#: inc/ckav-elements/experience.php:66
+msgid "Eclipse Systems"
+msgstr ""
+
+#: comments.php:28
+#: framework-customizations/theme/options/customizer-defaultcolors.php:30
+#: framework-customizations/theme/options/customizer-defaultcolors.php:91
+#: framework-customizations/theme/options/customizer-defaultcolors.php:104
+#: framework-customizations/theme/options/customizer-info.php:87
+msgid "Edit"
+msgstr ""
+
+#: inc/ckav-elements/education.php:15
+msgid "Education"
+msgstr ""
+
+#: inc/ckav-elements/education.php:44
+msgid "Education list"
+msgstr ""
+
+#: inc/includes/theme-functions.php:68
+msgid "Elementor"
+msgstr ""
+
+#: inc/includes/theme-functions.php:67
+msgid "Elementor Test Extension"
+msgstr ""
+
+#: comments.php:135
+msgid "Email address *"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-social.php:65
+msgid "Enable or disable social media link opening in new window"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-social.php:14
+msgid "Enter a name which is used as title"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/portfolio.php:36
+msgid "Enter client name"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/portfolio.php:42
+msgid "Enter URL"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/portfolio.php:30
+msgid "Enter year"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-social.php:56
+msgid "Enter your social URL"
+msgstr ""
+
+#: framework-customizations/theme/options/common-options-bg.php:230
+msgid "Enter your YouTube video ID"
+msgstr ""
+
+#: inc/ckav-elements/experience.php:15
+msgid "Experience"
+msgstr ""
+
+#: inc/ckav-elements/experience.php:44
+msgid "Experience list"
+msgstr ""
+
+#: inc/includes/option-types/ckav-icon/class-fw-option-type-ckav-icon.php:193
+msgid "File Type Icons"
+msgstr ""
+
+#: inc/ckav-elements/portfolio.php:185 inc/ckav-elements/title.php:158
+msgid "Filter alignment"
+msgstr ""
+
+#: inc/ckav-elements/portfolio.php:163
+msgid "Filters - uppercase?"
+msgstr ""
+
+#. Name of the theme
+msgid "FLOX"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-social.php:30
+msgid "Font Awesome"
+msgstr ""
+
+#: inc/includes/theme-unyson.php:24 inc/includes/theme-unyson.php:36
+msgid "Font Awesome Brands"
+msgstr ""
+
+#: inc/includes/theme-unyson.php:25
+msgid "Font Awesome Regular"
+msgstr ""
+
+#: inc/includes/theme-unyson.php:26
+msgid "Font Awesome Solid"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-info.php:56
+msgid "Font icon"
+msgstr ""
+
+#: inc/ckav-elements/title.php:120
+msgid "Font size"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/portfolio.php:14
+msgid "Full width page?"
+msgstr ""
+
+#: inc/includes/option-types/ckav-icon/class-fw-option-type-ckav-icon.php:192
+msgid "Gender Icons"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-general.php:6
+msgid "General"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-typography-general.php:52
+msgid "General title fonts"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-typography-general.php:53
+msgid "General title fonts (H1 to H6)"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-typography-general.php:6
+msgid "General typography"
+msgstr ""
+
+#: inc/ckav-elements/pricing.php:124
+msgid "Get started"
+msgstr ""
+
+#: inc/ckav-elements/blogposts.php:160 inc/ckav-elements/portfolio.php:98
+#: inc/ckav-elements/testimonials.php:149
+msgid "Gird gutter"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-typography-general.php:74
+msgid "Global button fonts"
+msgstr ""
+
+#: framework-customizations/theme/options/common-options-bg.php:82
+msgid "Gradient color 1"
+msgstr ""
+
+#: framework-customizations/theme/options/common-options-bg.php:86
+msgid "Gradient color 2"
+msgstr ""
+
+#: framework-customizations/theme/options/common-options-bg.php:90
+msgid "Gradient color 3"
+msgstr ""
+
+#: framework-customizations/theme/options/common-options-bg.php:78
+msgid "Gradient color angle"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-blog.php:49
+msgid "Grid gutter"
+msgstr ""
+
+#: inc/ckav-elements/title.php:95
+msgid "H1"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-typography-general.php:93
+msgid "H1 - size"
+msgstr ""
+
+#: inc/ckav-elements/title.php:96
+msgid "H2"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-typography-general.php:103
+msgid "H2 - size"
+msgstr ""
+
+#: inc/ckav-elements/title.php:97
+msgid "H3"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-typography-general.php:113
+msgid "H3 - size"
+msgstr ""
+
+#: inc/ckav-elements/title.php:98
+msgid "H4"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-typography-general.php:123
+msgid "H4 - size"
+msgstr ""
+
+#: inc/ckav-elements/title.php:99
+msgid "H5"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-typography-general.php:133
+msgid "H5 - size"
+msgstr ""
+
+#: inc/ckav-elements/title.php:100
+msgid "H6"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-typography-general.php:143
+msgid "H6 - size"
+msgstr ""
+
+#: inc/includes/option-types/ckav-icon/class-fw-option-type-ckav-icon.php:190
+msgid "Hand Icons"
+msgstr ""
+
+#: framework-customizations/theme/options/common-options-bg.php:237
+msgid "HTML Video"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://ckavart.com/"
+msgstr ""
+
+#. URI of the theme
+msgid "https://themeforest.net/user/c-kav/portfolio"
+msgstr ""
+
+#: inc/ckav-elements/pricing.php:80 inc/includes/template-tags.php:548
+#: framework-customizations/theme/options/customizer-info.php:50
+#: framework-customizations/theme/options/customizer-social.php:24
+msgid "Icon"
+msgstr ""
+
+#: inc/ckav-elements/pricing.php:93
+msgid "Icon image"
+msgstr ""
+
+#: inc/ckav-elements/testimonials.php:64
+msgid "Image"
+msgstr ""
+
+#: inc/includes/template-tags.php:385
+msgid "image"
+msgstr ""
+
+#: inc/ckav-elements/portfolio.php:128
+msgid "Image radius"
+msgstr ""
+
+#: inc/ckav-elements/portfolio.php:116
+msgid "Image ratio"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-info.php:30
+msgid "Info content"
+msgstr ""
+
+#: functions.php:52
+msgid "Install Plugins"
+msgstr ""
+
+#: functions.php:51
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions.php:53
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: template-parts/blog/content-none.php:19
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: framework-customizations/theme/options/customizer.php:55
+msgid "JS code field"
+msgstr ""
+
+#: inc/ckav-elements/education.php:51 inc/ckav-elements/experience.php:80
+msgid "Label"
+msgstr ""
+
+#: inc/ckav-elements/pricing.php:146
+msgid "Label Text"
+msgstr ""
+
+#: inc/ckav-elements/button.php:70 inc/ckav-elements/title.php:78
+msgid "Large"
+msgstr ""
+
+#: comments.php:107
+msgid "Leave a reply"
+msgstr ""
+
+#: inc/ckav-elements/button.php:110 inc/ckav-elements/portfolio.php:189
+#: inc/ckav-elements/title.php:162
+msgid "Left"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-defaultcolors.php:65
+msgid "Light"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-defaultcolors.php:70
+msgid "Lighten"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-social.php:64
+msgid "Links in new window"
+msgstr ""
+
+#: inc/ckav-elements/pricing.php:137
+msgid "Make it featured?"
+msgstr ""
+
+#: inc/ckav-elements/education.php:52
+msgid "Mar 2010 - University of Design"
+msgstr ""
+
+#: inc/ckav-elements/title.php:187
+msgid "Margin bottom"
+msgstr ""
+
+#: inc/ckav-elements/education.php:59
+msgid "Master Degree of Design"
+msgstr ""
+
+#: inc/includes/option-types/ckav-icon/class-fw-option-type-ckav-icon.php:200
+msgid "Medical Icons"
+msgstr ""
+
+#: inc/ckav-elements/title.php:79
+msgid "Medium"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-typography-general.php:32
+msgid "Menu fonts"
+msgstr ""
+
+#: inc/ckav-elements/button.php:73 inc/ckav-elements/title.php:81
+msgid "mini"
+msgstr ""
+
+#: inc/ckav-elements/skills.php:53
+msgid "My skill"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-social.php:13
+msgid "Name"
+msgstr ""
+
+#: comments.php:78 comments.php:97
+msgid "Newer Comments"
+msgstr ""
+
+#: single-portfolio.php:71 single.php:78 inc/includes/template-tags.php:82
+msgid "Next"
+msgstr ""
+
+#: inc/ckav-elements/blogposts.php:55 inc/ckav-elements/blogposts.php:67
+#: inc/ckav-elements/blogposts.php:79 inc/ckav-elements/blogposts.php:103
+#: inc/ckav-elements/button.php:99 inc/ckav-elements/education.php:93
+#: inc/ckav-elements/experience.php:107 inc/ckav-elements/portfolio.php:55
+#: inc/ckav-elements/portfolio.php:67 inc/ckav-elements/portfolio.php:155
+#: inc/ckav-elements/portfolio.php:167 inc/ckav-elements/portfolio.php:178
+#: inc/ckav-elements/pricing.php:76 inc/ckav-elements/pricing.php:141
+#: inc/ckav-elements/pricing.php:189 inc/ckav-elements/skills.php:89
+#: inc/ckav-elements/testimonials.php:174 inc/ckav-elements/title.php:151
+#: framework-customizations/theme/options/common-options-bg.php:24
+#: framework-customizations/theme/options/common-options-bg.php:64
+#: framework-customizations/theme/options/common-options-bg.php:136
+#: framework-customizations/theme/options/common-options-bg.php:267
+#: framework-customizations/theme/options/customizer-blog.php:12
+#: framework-customizations/theme/options/customizer-blog.php:27
+#: framework-customizations/theme/options/customizer-defaultcolors.php:17
+#: framework-customizations/theme/options/customizer-social.php:68
+#: framework-customizations/theme/options/posts/page.php:18
+msgid "No"
+msgstr ""
+
+#: inc/ckav-elements/templates/blogposts/style1.php:60
+#: inc/ckav-elements/templates/portfolio/style1.php:73
+msgid "No more posts."
+msgstr ""
+
+#: inc/ckav-elements/pricing.php:205
+msgid "Normal - background"
+msgstr ""
+
+#: inc/ckav-elements/pricing.php:195
+msgid "Normal - icon"
+msgstr ""
+
+#: inc/ckav-elements/title.php:45
+msgid "Normal title"
+msgstr ""
+
+#: template-parts/pageheader.php:20
+msgid "Not Found"
+msgstr ""
+
+#: template-parts/blog/content-none.php:6
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/ckav-elements/pricing.php:40
+msgid "Number of columns"
+msgstr ""
+
+#: comments.php:77 comments.php:96
+msgid "Older Comments"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/portfolio.php:19
+msgid "On"
+msgstr ""
+
+#: 404.php:7
+msgid "Oops, the page you are looking for does not exist. "
+msgstr ""
+
+#: 404.php:10
+msgid "Or, Maybe try a search?"
+msgstr ""
+
+#: framework-customizations/theme/options/common-options-bg.php:37
+msgid "Overlay background color"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-typography-themetitles.php:10
+msgid "Page - Title"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-defaultcolors.php:101
+#: framework-customizations/theme/options/customizer-defaultcolors.php:111
+msgid "Page background"
+msgstr ""
+
+#. Name of the template
+msgid "Page Blog"
+msgstr ""
+
+#. Name of the template
+msgid "Page Empty"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/page.php:8
+msgid "Page settings"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-defaultcolors.php:117
+msgid "Page shadow"
+msgstr ""
+
+#: inc/includes/option-types/ckav-icon/class-fw-option-type-ckav-icon.php:194
+msgid "Payment Icons"
+msgstr ""
+
+#: inc/ckav-elements/skills.php:58
+msgid "Percentage"
+msgstr ""
+
+#. Description of the theme
+msgid "Personal Portfolio &amp; Resume WordPress Theme"
+msgstr ""
+
+#: comments.php:28
+msgid "Pingback:"
+msgstr ""
+
+#: inc/includes/theme-unyson.php:27
+msgid "Pixeden Icons"
+msgstr ""
+
+#: inc/ckav-elements/ckav-fn.php:22
+msgid "Pixeden icons"
+msgstr ""
+
+#: functions.php:56
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/ckav-elements/education.php:107 inc/ckav-elements/experience.php:130
+msgid "Point border color"
+msgstr ""
+
+#: inc/ckav-elements/education.php:98 inc/ckav-elements/experience.php:121
+msgid "Point color"
+msgstr ""
+
+#: inc/ckav-elements/pricing.php:147
+msgid "Popular"
+msgstr ""
+
+#: inc/ckav-elements/pricing.php:224
+msgid "Popular - background"
+msgstr ""
+
+#: inc/ckav-elements/pricing.php:214
+msgid "Popular - Icon"
+msgstr ""
+
+#: inc/ckav-elements/pricing.php:235
+msgid "Popular tag color"
+msgstr ""
+
+#: inc/ckav-elements/pricing.php:246
+msgid "Popular tag text"
+msgstr ""
+
+#: inc/ckav-elements/portfolio.php:15
+msgid "Portfolio"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-general.php:40
+msgid "Portfolio page URL"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/portfolio.php:8
+msgid "Portfolio settings"
+msgstr ""
+
+#: inc/ckav-elements/portfolio.php:151
+msgid "Portfolio Title - uppercase?"
+msgstr ""
+
+#: inc/includes/template-tags.php:210
+msgid "Post navigation"
+msgstr ""
+
+#: inc/ckav-elements/experience.php:81
+msgid "Present"
+msgstr ""
+
+#: inc/ckav-elements/experience.php:112
+msgid "Present color"
+msgstr ""
+
+#: inc/includes/template-tags.php:81
+msgid "Prev"
+msgstr ""
+
+#: single-portfolio.php:60 single.php:72
+msgid "Previous"
+msgstr ""
+
+#: inc/ckav-elements/pricing.php:102
+msgid "Price Content"
+msgstr ""
+
+#: inc/ckav-elements/pricing.php:58
+msgid "Price packs"
+msgstr ""
+
+#: inc/ckav-elements/pricing.php:109
+msgid "Price value"
+msgstr ""
+
+#: inc/ckav-elements/pricing.php:15
+msgid "Pricing"
+msgstr ""
+
+#: inc/ckav-elements/button.php:85 inc/ckav-elements/pricing.php:160
+#: framework-customizations/theme/options/customizer-defaultcolors.php:55
+msgid "Primary"
+msgstr ""
+
+#: inc/menus.php:7
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/ckav-elements/skills.php:95
+msgid "Progress color"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/portfolio.php:35
+msgid "Project for"
+msgstr ""
+
+#: template-parts/blog/content-none.php:10
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: inc/includes/option-types/ckav-color-picker/class-fw-option-type-ckav-color-picker.php:40
+msgid "Reset"
+msgstr ""
+
+#: 404.php:8
+msgid "Return Home"
+msgstr ""
+
+#: functions.php:55
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/ckav-elements/button.php:118 inc/ckav-elements/portfolio.php:197
+#: inc/ckav-elements/title.php:170
+msgid "Right"
+msgstr ""
+
+#: inc/ckav-elements/testimonials.php:57 inc/ckav-elements/testimonials.php:71
+msgid "SALLIE MALONE"
+msgstr ""
+
+#: inc/includes/template-tags.php:169
+msgid "Search here..."
+msgstr ""
+
+#: template-parts/pageheader.php:22
+#, php-format
+msgid "Search Results for \"%s\""
+msgstr ""
+
+#: inc/includes/template-tags.php:169
+msgid "Search text"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-typography-themetitles.php:31
+msgid "Section - Title"
+msgstr ""
+
+#: inc/ckav-elements/title.php:42
+msgid "Section title"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-typography-general.php:11
+msgid ""
+"Select body fonts which is global fonts of theme, Font size must be in PX "
+"only"
+msgstr ""
+
+#: inc/ckav-elements/controls/ckav-icon.php:1749
+#: inc/ckav-elements/controls/ckav-icon.php:1750
+msgid "Select Icon"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-info.php:51
+msgid "Select icon type"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-defaultcolors.php:39
+msgid "Select pre-define themes"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-social.php:25
+msgid "Select social icon type"
+msgstr ""
+
+#: framework-customizations/theme/options/common-options-bg.php:215
+msgid "Select video background type"
+msgstr ""
+
+#: framework-customizations/theme/options/common-options-bg.php:189
+msgid "Set slider images from media library"
+msgstr ""
+
+#: inc/ckav-elements/blogposts.php:92 inc/ckav-elements/button.php:60
+#: inc/ckav-elements/education.php:82 inc/ckav-elements/experience.php:96
+#: inc/ckav-elements/portfolio.php:81 inc/ckav-elements/pricing.php:178
+#: inc/ckav-elements/skills.php:78 inc/ckav-elements/testimonials.php:102
+#: inc/ckav-elements/title.php:66
+msgid "Settings"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-defaultcolors.php:131
+msgid "Shadow offset"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-defaultcolors.php:121
+msgid "Shadow size"
+msgstr ""
+
+#: framework-customizations/theme/options/common-options-bg.php:75
+msgid "Short Text"
+msgstr ""
+
+#: inc/ckav-elements/blogposts.php:64
+msgid "Show author?"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-blog.php:23
+msgid "Show category?"
+msgstr ""
+
+#: inc/ckav-elements/blogposts.php:52
+msgid "Show date?"
+msgstr ""
+
+#: inc/ckav-elements/blogposts.php:76
+#: framework-customizations/theme/options/customizer-blog.php:8
+msgid "Show description?"
+msgstr ""
+
+#: inc/ckav-elements/portfolio.php:52
+msgid "Show filters?"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/page.php:14
+msgid "Show footer?"
+msgstr ""
+
+#: framework-customizations/theme/options/common-options-bg.php:61
+msgid "Show gradient background?"
+msgstr ""
+
+#: framework-customizations/theme/options/common-options-bg.php:21
+msgid "Show overlay background?"
+msgstr ""
+
+#: framework-customizations/theme/options/common-options-bg.php:264
+msgid "Show particle effect?"
+msgstr ""
+
+#: inc/ckav-elements/portfolio.php:64
+msgid "Show title?"
+msgstr ""
+
+#: inc/includes/theme-unyson.php:28
+msgid "Simple line icon"
+msgstr ""
+
+#: inc/ckav-elements/ckav-fn.php:9
+msgid "Simple line icons"
+msgstr ""
+
+#: inc/ckav-elements/button.php:67 inc/ckav-elements/title.php:73
+msgid "Size"
+msgstr ""
+
+#: inc/ckav-elements/skills.php:15 inc/ckav-elements/skills.php:45
+msgid "Skills"
+msgstr ""
+
+#: inc/ckav-elements/button.php:72 inc/ckav-elements/title.php:80
+msgid "small"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-social.php:8
+msgid "Social Links"
+msgstr ""
+
+#: functions.php:54
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: template-parts/blog/content-none.php:14
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: inc/ckav-elements/portfolio.php:120
+msgid "Square"
+msgstr ""
+
+#: inc/hooks.php:75
+msgid "Sticky sidebar"
+msgstr ""
+
+#: inc/ckav-elements/testimonials.php:40
+msgid "Style"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-typography-themetitles.php:75
+msgid "Sub - Title"
+msgstr ""
+
+#: inc/ckav-elements/experience.php:65 inc/ckav-elements/testimonials.php:77
+#: inc/ckav-elements/title.php:44
+#: framework-customizations/theme/options/customizer-info.php:25
+msgid "Sub title"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/portfolio.php:15
+msgid ""
+"Support full width for content area which give flexibility to format content."
+" Useful to craete content using elementor."
+msgstr ""
+
+#: inc/ckav-elements/title.php:92
+msgid "Tag"
+msgstr ""
+
+#: template-parts/pageheader.php:26
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: inc/ckav-elements/testimonials.php:15
+msgid "Testimonials"
+msgstr ""
+
+#: inc/ckav-elements/title.php:52
+msgid "Text content"
+msgstr ""
+
+#: inc/includes/option-types/ckav-icon/class-fw-option-type-ckav-icon.php:196
+msgid "Text Editor Icons"
+msgstr ""
+
+#: inc/ckav-elements/button.php:95 inc/ckav-elements/title.php:147
+msgid "Text uppercase?"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-defaultcolors.php:7
+#: framework-customizations/theme/options/customizer-defaultcolors.php:27
+msgid "Theme colors"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-general.php:12
+msgid "Theme layout"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-typography-themetitles.php:6
+msgid "Theme Titles"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-info.php:31
+msgid "This information display in sidebar popup area"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-general.php:41
+msgid "This URL apply on portfolio single page grid icon"
+msgstr ""
+
+#: inc/ckav-elements/button.php:74 inc/ckav-elements/title.php:82
+msgid "tiny"
+msgstr ""
+
+#: inc/ckav-elements/education.php:58 inc/ckav-elements/experience.php:58
+#: inc/ckav-elements/pricing.php:65 inc/ckav-elements/skills.php:52
+#: inc/ckav-elements/testimonials.php:70 inc/ckav-elements/title.php:15
+#: framework-customizations/theme/options/customizer-info.php:21
+msgid "Title"
+msgstr ""
+
+#: inc/ckav-elements/title.php:55
+msgid "Title text"
+msgstr ""
+
+#: inc/includes/option-types/ckav-icon/class-fw-option-type-ckav-icon.php:191
+msgid "Transportation Icons"
+msgstr ""
+
+#: comments.php:124
+msgid "Type your comment"
+msgstr ""
+
+#: inc/includes/option-types/ckav-icon/class-fw-option-type-ckav-icon.php:159
+msgid "Unknown Set"
+msgstr ""
+
+#: framework-customizations/theme/options/common-options-bg.php:126
+msgid "Upload image"
+msgstr ""
+
+#: framework-customizations/theme/options/common-options-bg.php:127
+msgid "Upload image to display in background"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-info.php:14
+msgid "Upload info image"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-info.php:7
+msgid "Upload logo image"
+msgstr ""
+
+#: framework-customizations/theme/options/common-options-bg.php:188
+msgid "Upload slider images"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer-info.php:97
+#: framework-customizations/theme/options/customizer-social.php:55
+msgid "URL"
+msgstr ""
+
+#: template-parts/portfolio-pageheader.php:26
+msgid "URL: "
+msgstr ""
+
+#: inc/ckav-elements/pricing.php:72
+msgid "Use font icon?"
+msgstr ""
+
+#: inc/includes/option-types/ckav-icon/class-fw-option-type-ckav-icon.php:198
+msgid "Video Player Icons"
+msgstr ""
+
+#: framework-customizations/theme/options/common-options-bg.php:214
+msgid "Video type"
+msgstr ""
+
+#: inc/includes/option-types/ckav-icon/class-fw-option-type-ckav-icon.php:189
+msgid "Web Application Icons"
+msgstr ""
+
+#: inc/ckav-elements/pricing.php:103
+msgid ""
+"Web Development\n"
+"Advertising\n"
+"App Development\n"
+"Music\n"
+"Writing\n"
+"Photography"
+msgstr ""
+
+#: comments.php:141
+msgid "Website"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/portfolio.php:41
+msgid "Website URL"
+msgstr ""
+
+#: inc/ckav-elements/button.php:87 inc/ckav-elements/pricing.php:162
+#: framework-customizations/theme/options/customizer-defaultcolors.php:80
+msgid "White"
+msgstr ""
+
+#: framework-customizations/theme/options/customizer.php:56
+msgid "without &lt;script&gt; tags"
+msgstr ""
+
+#: inc/ckav-elements/title.php:77
+msgid "X-Large"
+msgstr ""
+
+#: inc/ckav-elements/title.php:76
+msgid "XX-Large"
+msgstr ""
+
+#: inc/ckav-elements/experience.php:51
+#: framework-customizations/theme/options/posts/portfolio.php:29
+msgid "Year"
+msgstr ""
+
+#: template-parts/portfolio-pageheader.php:18
+msgid "Year: "
+msgstr ""
+
+#: inc/ckav-elements/blogposts.php:54 inc/ckav-elements/blogposts.php:66
+#: inc/ckav-elements/blogposts.php:78 inc/ckav-elements/blogposts.php:102
+#: inc/ckav-elements/button.php:98 inc/ckav-elements/education.php:92
+#: inc/ckav-elements/experience.php:106 inc/ckav-elements/portfolio.php:54
+#: inc/ckav-elements/portfolio.php:66 inc/ckav-elements/portfolio.php:154
+#: inc/ckav-elements/portfolio.php:166 inc/ckav-elements/portfolio.php:177
+#: inc/ckav-elements/pricing.php:75 inc/ckav-elements/pricing.php:140
+#: inc/ckav-elements/pricing.php:188 inc/ckav-elements/skills.php:88
+#: inc/ckav-elements/testimonials.php:173 inc/ckav-elements/title.php:150
+#: framework-customizations/theme/options/common-options-bg.php:28
+#: framework-customizations/theme/options/common-options-bg.php:68
+#: framework-customizations/theme/options/common-options-bg.php:140
+#: framework-customizations/theme/options/common-options-bg.php:271
+#: framework-customizations/theme/options/customizer-blog.php:16
+#: framework-customizations/theme/options/customizer-blog.php:31
+#: framework-customizations/theme/options/customizer-defaultcolors.php:21
+#: framework-customizations/theme/options/customizer-social.php:72
+#: framework-customizations/theme/options/posts/page.php:22
+#: framework-customizations/theme/options/posts/portfolio.php:23
+msgid "Yes"
+msgstr ""
+
+#: comments.php:53
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:129
+msgid "Your name *"
+msgstr ""
+
+#: framework-customizations/theme/options/common-options-bg.php:229
+msgid "YouTube Video ID"
+msgstr ""

@@ -1,0 +1,366 @@
+// main: ../main.less, out: false, compress: false, sourceMap: false
+
+
+/* FORMS
+********************************************/
+.form-group label {
+	font-weight: normal;
+}
+.datetimepicker {
+	z-index: 99999;
+}
+/* Form controls
+=========================*/
+.post-password-form input,
+.widget_archive select,
+.postform,
+.form-control,
+.wpcf7-form-control:not([type="submit"]) {
+	display: block;
+	border-radius: 5px;
+	box-shadow: none;
+	background-color: transparent;
+	border-width: 1px;
+	border-style: solid;
+	border-color: transparent;
+	font-size: 14px;
+	height: auto;
+	padding: 10px 15px;
+	margin-bottom: 10px;
+	font-weight: normal;
+	width: 100%;
+	-webkit-appearance: none;
+}
+
+.widget_archive select,
+.postform,
+.form-control,
+.wpcf7-form-control:not([type="submit"]),
+.post-password-form input {
+	border-color: rgba(0,0,0,0.15);
+}
+
+.wpcf7-form-control:hover,
+.wpcf7-form-control:focus,
+.form-control:hover,
+.form-control:focus {
+	border-color: rgba(0,0,0,0.5);
+	box-shadow: none;
+	outline: none;
+}
+
+/* Light form control */
+.footer-dark .postform,
+.footer-dark .form-control,
+.form-control-light,
+.form-control-light.wpcf7-form-control {
+	border-color: rgba(255,255,255,0.15); 
+	color: #fff;
+}
+.form-control-light option {
+	color: #333;
+}
+.footer-dark .postform:hover,
+.footer-dark .form-control:hover,
+.form-control-light:hover,
+.form-control-light:focus,
+.form-control-light.wpcf7-form-control:focus,
+.form-control-light.wpcf7-form-control:hover {
+	border-color: rgba(255,255,255,0.5);
+	color: #fff;
+}
+.form-control-light::-webkit-input-placeholder { color: rgba(255,255,255,0.4); }
+.form-control-light::-moz-placeholder { color: rgba(255,255,255,0.4); }
+.form-control-light:-ms-input-placeholder { color: rgba(255,255,255,0.4); }
+.form-control-light:-moz-placeholder { color: rgba(255,255,255,0.4); }
+
+.form-group {
+	[type="checkbox"],
+	[type="radio"] {
+		margin-right: 10px;
+	}
+}
+
+/* form control sizes */
+.large.form-control {
+	font-size: 18px;
+	padding: 15px 25px;
+}
+.medium.form-control {
+	font-size: 16px;
+	padding: 10px 15px;
+}
+.small.form-control {
+	font-size: 14px;
+	padding: 8px 10px;
+}
+.mini.form-control {
+	font-size: 13px;
+	padding: 5px 8px;
+}
+
+textarea.form-control {
+	height: 150px;
+}
+
+.field-list {
+	list-style-type: none;
+	margin: 0 0 10px 0;
+	padding: 0px;
+}
+.field-list li {
+	margin: 0 0 3px 0;
+}
+.field-list li > span {
+	display: inline-block;
+	margin-left: 5px;
+	vertical-align: top;
+}
+.field-list li input {
+	position: relative;
+	top: -2px;
+}
+
+
+.error {
+	display: block;
+	font-weight: normal;
+	margin: 0px;
+	text-align: left;
+	font-size: 12px;
+	color: #e74c3c;
+}
+.error.valid {
+	display: none !important;
+}
+.form-control + .error {
+	margin-bottom: 10px;
+	margin-top: -4px;
+}
+
+.typo-light .error {
+	color: #fff;
+}
+
+/**
+ * Contact form 7 messages
+ */
+div.wpcf7-mail-sent-ok,
+div.wpcf7-validation-errors, 
+div.wpcf7-acceptance-missing {
+	border: 1px solid rgba(255, 0, 0, 0.7);
+	border-radius: 4px;
+	background-color: rgba(255, 0, 0, 0.1);
+	margin: 0px;
+	padding: 5px 10px;
+}
+div.wpcf7-mail-sent-ok {
+    border: 1px solid #398f14;
+    background-color: rgba(156, 220, 35, 0.17);
+}
+
+/*Form table row*/
+.form-inline-tbl { 
+	display: table;
+	table-layout: fixed;
+	border-spacing: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	list-style-type: none;
+	padding: 0px; 
+}
+.form-inline-tbl > li { display: table-cell; }
+
+
+/* Password form
+/******************************/
+.post-password-form input {
+	display: inline-flex;
+	width: auto;
+	margin: 0px;
+}
+
+/*
+***************************************************************
+Subscribe blocks
+***************************************************************
+*/
+.subscribe-block .form-group {
+	position: relative;
+	margin: 0 0 5px 0;
+	padding-bottom: 1px;
+}
+.subscribe-block .btn {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	padding: 0px 20px;
+	min-height: inherit;
+}
+.subscribe-block .btn i {
+	position: relative;
+	top: -1px;
+}
+.subscribe-block .btn,
+.subscribe-block [type="email"],
+.subscribe-block [type="text"] {
+	height: 50px;
+}
+.subscribe-block.inline {
+	> .form-widget {
+		display: flex;
+
+		> .form-group {
+			flex-grow: 3;
+			box-sizing: border-box;
+			margin-right: 10px;
+		}
+		> .form-group:last-child {
+			margin-right: 0;
+		}
+	}
+}
+.subscribe-block.dark {
+	.btn {
+		background-color: #fff;
+		color: @dark;
+	}
+}
+
+
+
+/*
+Large size
+------------------------------------
+*/
+.large.subscribe-block .btn {
+	padding: 0px 30px;
+}
+.large.subscribe-block .btn,
+.large.subscribe-block [type="email"],
+.large.subscribe-block [type="text"] {
+	height: 70px;
+}
+.large.subscribe-block [type="email"] {
+	padding-left: 30px;
+}
+
+/*
+Large size
+------------------------------------
+*/
+.small.subscribe-block .btn {
+	padding: 0px 15px;
+}
+.small.subscribe-block .btn,
+.small.subscribe-block [type="email"],
+.small.subscribe-block [type="text"] {
+	height: 40px;
+}
+
+
+/*
+====================================
+Subscribe blocks 1
+====================================
+*/
+.subscribe-block._1 .btn {
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+/*
+====================================
+Subscribe blocks 2
+====================================
+*/
+.subscribe-block._2 .btn {
+	height: 38px;
+	right: 6px;
+	top: 6px;
+}
+.large.subscribe-block._2 .btn {
+	height: 58px;
+}
+.small.subscribe-block._2 .btn {
+	height: 28px;
+}
+
+/*
+====================================
+Subscribe blocks 3
+====================================
+*/
+.subscribe-block._3 > .form-widget > .form-group:last-child {
+	flex-grow: 1;
+}
+.subscribe-block._3 .btn {
+	position: static;
+}
+.subscribe-block._3.inline .btn {
+	width: 100%;
+}
+
+/*
+***************************************************************
+Search field
+***************************************************************
+*/
+.search-frm {
+	position: relative;
+	.ckav-btn {
+		position: absolute;
+		height: 100%;
+		border-radius: 5px;
+		right: 0px;
+		width: 50px;
+		padding-left: 0px;
+		padding-right: 0px;
+		text-align: center;
+        top: 0px;
+		font-size: 14px;
+		i {
+			margin: 0px;
+		}
+	}
+	input {
+		//width: calc(~"100% - 50px");
+		width: 100%;
+        margin: 0px;
+        padding: 10px 20px;
+	}
+}
+
+/*
+***************************************************************
+Contact form style 1
+***************************************************************
+*/
+
+.typo-light,
+.light {
+	.widget_archive select,
+	.postform,
+	.form-control,
+	.wpcf7-form-control:not([type="submit"]),
+	.post-password-form input {
+		border-color: rgba(255, 255, 255, 0.3);
+		color: #fff;
+	}
+
+	.form-control:hover,
+	.form-control:focus,
+	.widget_archive select:hover,
+	.postform:hover,
+	.form-control:hover,
+	.wpcf7-form-control:not([type="submit"]):hover,
+	.post-password-form input:hover {
+		border-color: rgba(255,255,255,0.8);
+
+	}
+
+	div.wpcf7-mail-sent-ok, div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
+		color: #fff;
+	}
+}
+

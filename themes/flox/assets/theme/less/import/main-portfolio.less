@@ -1,0 +1,126 @@
+// main: ../main.less, out: false, compress: false, sourceMap: false
+
+
+/* Portfolio single
+/******************************/
+.portfolio-header {
+    position: relative;
+    z-index: 2;
+
+    .portfolio-cats {
+        margin-bottom: 10px;
+    }
+}
+.portfolio-single {
+    .post-pagination {
+        .portfolio-home {
+            text-align: center;
+            .iconbox {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+
+/* Portfolio box
+/******************************/
+.portfolio-box {
+    .transition(0.3s);
+	position: relative;
+    top: 0;
+    
+    .portfolio-img {
+        background-color: #fff;
+        box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.1);
+        position: relative;
+        border-radius: @radius;
+        
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            opacity: 0;
+            top: 0;
+            left: 0;
+        }
+
+		img {
+            opacity: 0;
+            width: 1px;
+            height: 1px;
+		}
+        .portfolio-icons {
+            opacity: 0;
+            transform: translate(-50%, -50%);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            color: #fff;
+            .iconbox {
+                font-size: 30px;
+                margin: 5px;
+                text-decoration: none;
+            }
+        }
+    }
+    figcaption {
+        padding: 15px 0 0 0;
+        .content-title {
+            margin: 0;
+        }
+    }
+    &:hover {
+        //top: -3px;
+        .portfolio-img {
+            &:before,
+            .portfolio-icons,
+            a {
+                .transition(0.5s);
+                opacity: 1;
+            }
+        }
+    }
+    .portfolio-cat {
+        font-size: 12px;
+        font-style: italic;
+        margin-bottom: 10px;
+    }
+}
+
+.masonry-grid {
+	&.square {
+		.portfolio-img {
+			width: 100%;
+			height: 0;
+            padding-bottom: 100%;
+            overflow: hidden;
+		}
+	}
+	&.ratio-3x4 {
+		.portfolio-img {
+			width: 100%;
+			height: 0;
+            padding-bottom: calc(~"3/4 * 100%");
+            overflow: hidden;
+		}
+	}
+}
+.light.masonry-wrp {
+    color: #fff;
+    .portfolio-box {
+        .content-title {
+            color: inherit;
+            opacity: 0.75;
+        }
+    }
+    .filter-wrp {
+        .filter-btn.active {
+            background-color: rgba(255,255,255,0.15);
+        }
+    }
+    
+}

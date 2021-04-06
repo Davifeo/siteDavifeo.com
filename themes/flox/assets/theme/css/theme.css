@@ -1,0 +1,377 @@
+.anim {
+  transition: all 0.25s ease-out;
+}
+.font-1 {
+  font-family: 'Open Sans', sans-serif;
+}
+.font-2 {
+  font-family: 'Montserrat', sans-serif;
+}
+/* Background colors
+/******************************/
+.default-bg {
+  background-color: #3b5afb;
+}
+.primary-bg {
+  background-color: #ff6123;
+}
+.dark-bg {
+  background-color: #343e45;
+}
+.light-bg {
+  background-color: #f7f9fb;
+}
+.white-bg {
+  background-color: #fff;
+}
+/* Typography
+/******************************/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #343e45;
+}
+.typo-light h1,
+.typo-light h2,
+.typo-light h3,
+.typo-light h4,
+.typo-light h5,
+.typo-light h6,
+.typo-light p {
+  color: #fff;
+}
+.list-1 li::before {
+  border-color: #3b5afb;
+}
+.page-title {
+  font-family: 'Montserrat', sans-serif;
+  color: #343e45;
+}
+.section-title {
+  font-family: 'Montserrat', sans-serif;
+  color: #343e45;
+}
+.section-title:after {
+  background-color: #ff6123;
+}
+.sub-title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #343e45;
+}
+.content-title {
+  font-family: 'Montserrat', sans-serif;
+}
+/* Pop label
+/******************************/
+.pop-label {
+  background-color: #ff6123;
+  color: #fff;
+}
+.pop-label::after {
+  border-top: 6px solid #ff6123;
+}
+/* Buttons
+/******************************/
+.ckav-btn {
+  font-family: 'Montserrat', sans-serif;
+}
+/*== Default button ===============*/
+.default-btn {
+  background-color: #3b5afb;
+  border-color: #3b5afb;
+  color: #fff;
+}
+.default-btn:hover,
+.default-btn:focus,
+.default-btn:active,
+.default-btn.active {
+  background-color: #343e45;
+  border-color: #343e45;
+  color: #fff;
+}
+/*== Primary button ===============*/
+.primary-btn {
+  background-color: #ff6123;
+  border-color: #ff6123;
+  color: #fff;
+}
+.primary-btn:hover,
+.primary-btn:focus,
+.primary-btn:active,
+.primary-btn.active {
+  background-color: #343e45;
+  border-color: #343e45;
+  color: #fff;
+}
+/*== Dark button ===============*/
+.dark-btn {
+  background-color: #343e45;
+  border-color: #343e45;
+  color: #fff;
+}
+.dark-btn:hover,
+.dark-btn:focus,
+.dark-btn:active,
+.dark-btn.active {
+  background-color: #ff6123;
+  border-color: #ff6123;
+  color: #fff;
+}
+/*== Dark button ===============*/
+.white-btn {
+  background-color: #fff;
+  border-color: #fff;
+  color: #343e45;
+}
+.white-btn:hover,
+.white-btn:focus,
+.white-btn:active,
+.white-btn.active {
+  background-color: #343e45;
+  border-color: #343e45;
+  color: #fff;
+}
+.glass.white-btn {
+  background-color: transparent;
+  border-color: transparent;
+}
+.white-btn:hover,
+.white-btn:focus,
+.white-btn:active,
+.white-btn.active {
+  background-color: #343e45;
+  border-color: #343e45;
+  color: #fff;
+}
+.tag-btn {
+  border-color: rgba(0, 0, 0, 0.2);
+}
+.tag-btn:hover {
+  background-color: #343e45;
+  color: #fff;
+}
+.tag-btn.light {
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.tag-btn.light:hover {
+  background-color: #fff;
+  color: #343e45;
+}
+/*
+ * Header
+ ********************************/
+.main-header {
+  background-color: #3b5afb;
+  color: #fff;
+}
+.main-header .profile-info-wrp {
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+/*
+ * Header search
+ ********************************/
+.header-search {
+  background-color: #343e45;
+}
+.header-search .search-frm button {
+  background-color: transparent;
+  color: #fff;
+}
+.header-search .search-frm button:hover {
+  background-color: #3b5afb;
+}
+.header-search .search-frm input {
+  background-color: transparent;
+  color: #fff;
+}
+/* Main menu
+/******************************/
+.main-menu {
+  background-color: #343e45;
+}
+.ckav-menu {
+  /*----------  Second level drop-down container ----------*/
+}
+.ckav-menu .menu-item > a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  border: 1px solid transparent;
+}
+.ckav-menu .menu-item.active:hover > a,
+.ckav-menu .menu-item > a:hover {
+  background-color: #ff6123;
+}
+.ckav-menu .menu-item > .sub {
+  background-color: #343e45;
+  border-top: 2px solid #3b5afb;
+}
+.ckav-menu .has-dropdown > .dropdown {
+  background-color: #343e45;
+  border-top: 2px solid #3b5afb;
+}
+/*
+ * Side sticky bar
+ ********************************/
+.side-header {
+  background-color: #3b5afb;
+  color: #fff;
+}
+.sticky-sidebar {
+  background-color: #fff;
+}
+/* All icon links 
+/******************************/
+.menu-handle {
+  background-color: #343e45;
+}
+.menu-handle:hover {
+  background-color: #ff6123;
+}
+.widget-handle,
+.search-handle {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.widget-handle:hover,
+.search-handle:hover {
+  background-color: #343e45;
+}
+.menu-handle.on,
+.widget-handle.on,
+.search-handle.on {
+  background-color: #ff6123;
+}
+.page-header {
+  background-color: #f7f9fb;
+}
+/* General widget area
+**********************************/
+.widget {
+  color: #666;
+}
+/* Category and archive widgets
+**********************************/
+.widget_categories ul > li,
+.widget_archive ul > li,
+.widget_meta ul > li,
+.widget_pages ul > li,
+.widget_recent_entries ul > li,
+.widget_recent_comments ul > li,
+.widget_rss ul > li {
+  color: #343e45;
+}
+.widget_categories ul > li:before,
+.widget_archive ul > li:before,
+.widget_meta ul > li:before,
+.widget_pages ul > li:before,
+.widget_recent_entries ul > li:before,
+.widget_recent_comments ul > li:before,
+.widget_rss ul > li:before {
+  background-color: #3b5afb;
+}
+/* Progress bars
+/******************************/
+.progress-wrp .progress {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+.progress-wrp .progress-bar {
+  background-color: #3b5afb;
+}
+.progress-wrp .percentage {
+  background-color: #343e45;
+  color: #fff;
+}
+.progress-wrp .percentage i {
+  color: #343e45;
+}
+/* Education list
+/******************************/
+.edu-list .label {
+  background-color: #343e45;
+  color: #fff;
+  border-color: #343e45;
+}
+.edu-list .label::after {
+  background-color: #ff6123;
+}
+.edu-list .label::before {
+  border-right: 12px solid #343e45;
+}
+/* Experience list
+/******************************/
+.exp-list .exp-title .sep {
+  border-bottom: 1px solid #3b5afb;
+}
+/* Price packages
+/******************************/
+.price-pack .iconbox {
+  color: #ff6123;
+}
+.price-pack.popular {
+  border-color: #3b5afb;
+  box-shadow: inset 0 0 0 5px #3b5afb;
+  /* background-color: @default;
+        p {
+            color: #fff;
+        }
+        .features {
+            li::before {
+                border-color: #fff;
+            }
+        } */
+}
+/* Post single
+/******************************/
+.single-post-header {
+  background-color: #343e45;
+}
+.single-post-header .post-pager {
+  color: #fff;
+}
+/* Blog post box
+/******************************/
+.ckav-postbox1 .post-date {
+  color: #343e45;
+}
+.ckav-postbox1 .post-date .dd {
+  font-family: 'Montserrat', sans-serif;
+}
+.ckav-postbox2 {
+  background-color: #fff;
+}
+.ckav-postbox3 .entry-date-wrp {
+  background-color: #3b5afb;
+  font-family: 'Montserrat', sans-serif;
+}
+.ckav-postbox3 .info .post-author:after {
+  border-color: #3b5afb;
+}
+/*== Post meta style ===============*/
+.ckav-post-meta [class*="col-"]:after {
+  border-color: #3b5afb;
+}
+/* Pagination
+/******************************/
+.paging-navigation .pagination .page-numbers {
+  font-family: 'Montserrat', sans-serif;
+}
+.paging-navigation .pagination .page-numbers:hover {
+  background-color: #ff6123;
+  color: #fff;
+}
+.paging-navigation .pagination .page-numbers.current {
+  background-color: #343e45;
+  color: #fff;
+}
+/* Wordpress post links
+/******************************/
+.post-nav-links .post-page-numbers.current {
+  background-color: #ff6123;
+  color: #fff;
+}

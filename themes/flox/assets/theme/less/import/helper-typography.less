@@ -1,0 +1,203 @@
+// main: ../helper.less, out: false, compress: false, sourceMap: false
+
+/* Common typography
+=========================*/
+.mr-b-medium {
+	&.section-title {
+		margin-bottom: 40px;
+	}
+}
+.mr-b-small {
+	&.section-title {
+		margin-bottom: 30px;
+	}
+}
+.mr-b-mini {
+	&.section-title {
+		margin-bottom: 20px;
+	}
+}
+.mr-b-tiny {
+	&.section-title {
+		margin-bottom: 10px;
+	}
+}
+.mr-b-0 {
+	&.section-title {
+		margin-bottom: 0;
+	}
+}
+
+.mb4 {
+	li {
+		margin-bottom: 4px;
+	}
+}
+
+.mb6 {
+	li {
+		margin-bottom: 6px;
+	}
+}
+
+.mb8 {
+	li {
+		margin-bottom: 8px;
+	}
+}
+
+.mb10 {
+	li {
+		margin-bottom: 10px;
+	}
+}
+
+.mb15 {
+	li {
+		margin-bottom: 15px;
+	}
+}
+
+/* Tag text
+=========================*/
+.tag-text {
+	display: inline-block;
+	padding: 5px 8px;
+	line-height: 1;
+}
+
+.tag-text.sm {
+	padding: 6px 8px;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+
+/* Text transform
+=========================*/
+.txt-upper {
+	text-transform: uppercase;
+}
+
+.txt-lower {
+	text-transform: lowercase;
+}
+
+.txt-capi {
+	text-transform: capitalize;
+}
+
+/* Fonts sizes
+=========================*/
+.fs11 {
+	font-size: 11px;
+}
+
+.fs12 {
+	font-size: 12px;
+}
+
+.fs13 {
+	font-size: 13px;
+}
+
+.f-sizes(90, 2, all, 14);
+.f-sizes(200, 10, all, 100);
+
+.fs100p {
+	font-size: 100%;
+}
+
+
+/* Line height
+=========================*/
+.f-line-sizes(20, 1, all, 1);
+
+
+/* Font weight
+=========================*/
+.bold-n {
+	font-weight: normal;
+}
+
+.bold-0 {
+	font-weight: 200;
+}
+
+.bold-1 {
+	font-weight: 300;
+}
+
+.bold-2 {
+	font-weight: 400;
+}
+
+.bold-3 {
+	font-weight: 500;
+}
+
+.bold-4 {
+	font-weight: 600;
+}
+
+.bold-5 {
+	font-weight: 700;
+}
+
+.bold-6 {
+	font-weight: 800;
+}
+
+.bold-7 {
+	font-weight: 900;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.l-through {
+	text-decoration: line-through;
+}
+
+
+/* Font family
+=========================*/
+[class*="link-"]:hover {
+	text-decoration: underline;
+}
+
+.list-links {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	font-size: 13px;
+
+	li {
+		border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+		padding: 6px 0;
+
+		>ul {
+			background-color: rgba(0, 0, 0, 0.02);
+			border-top: 1px solid rgba(0, 0, 0, 0.07);
+			list-style-type: none;
+			margin: 5px 0 -5px 0;
+			padding: 0;
+
+			>li {
+				padding: 6px 15px;
+			}
+
+			>li:last-child {
+				border-bottom: none;
+			}
+		}
+	}
+}
+
+
+.sep-list {
+	.sep {
+		margin: 0 5px;
+	}
+}

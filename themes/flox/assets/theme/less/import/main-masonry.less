@@ -1,0 +1,152 @@
+// main: ../main.less, out: false, compress: false, sourceMap: false
+
+
+/* Grid filters
+/******************************/
+.filter-wrp {
+	margin-bottom: 30px;
+	.filters {
+		margin: 0;
+		width: 100%;
+		>li {
+			margin: 0 10px 0 0;
+			&:last-child {
+				margin-right: 0px;
+			}
+		}
+		
+	}
+	.filter-btn {
+		padding: 5px 15px;
+		border-radius: 5px;
+		font-size: 14px;
+		font-family: @button-font;
+    	font-weight: bold;
+		opacity: 0.4;
+		cursor: pointer;
+		position: relative;
+		color: @dark;
+		&:hover {
+			color: @dark;
+		}
+		&.active {
+			opacity: 1;
+			background-color: @dark;
+			color: #fff;
+			&:hover {
+				color: #fff;
+			}
+		}
+		
+	}
+
+}
+
+
+
+/* Masonry grids
+/******************************/
+.masonry-wrp {
+	opacity: 0;
+	.masonry-grid {
+		position: relative;
+	}
+	.masonry-item {
+		box-sizing: border-box;
+	}
+	.masonry-item img {
+		width: 100%;
+		display: block;
+		max-width: 100%;
+	}
+	
+	figure {
+		display: block;
+		position: relative;
+	}
+	
+	.ratio-square {
+		.portfolio-item {
+			position: absolute;
+			left: 0;
+			top: 0;
+			height: 100%;
+			width: 100%;
+		}
+		figure { padding-top: 100%;	}
+		figure.half { padding-top: 50%; }
+		figure.double { padding-top: 200%; }
+		
+		&.gt4 figure.half { padding-top: calc(~"50% - 2px"); }
+		&.gt10 figure.half { padding-top: calc(~"50% - 5px"); }
+		&.gt20 figure.half { padding-top: calc(~"50% - 10px"); }
+		&.gt30 figure.half { padding-top: calc(~"50% - 15px"); }
+		&.gt40 figure.half { padding-top: calc(~"50% - 20px"); }
+		
+		&.gt4 figure.double { padding-top: calc(~"200% + 3px"); }
+		&.gt10 figure.double { padding-top: calc(~"200% + 9px"); }
+		&.gt20 figure.double { padding-top: calc(~"200% + 19px"); }
+		&.gt30 figure.double { padding-top: calc(~"200% + 29px"); }
+		&.gt40 figure.double { padding-top: calc(~"200% + 39px"); } 
+	}
+
+	.ratio-horizontal {
+		.portfolio-item {
+			position: absolute;
+			left: 0;
+			top: 0;
+			height: 100%;
+			width: 100%;
+		}
+		figure { padding-top: 76%;	}
+		figure.half { padding-top: 38%; }
+		figure.double { padding-top: 152%; }
+		
+		&.gt4 figure.half { padding-top: calc(~"38% - 2px"); }
+		&.gt10 figure.half { padding-top: calc(~"38% - 5px"); }
+		&.gt20 figure.half { padding-top: calc(~"38% - 10px"); }
+		&.gt30 figure.half { padding-top: calc(~"38% - 15px"); }
+		&.gt40 figure.half { padding-top: calc(~"38% - 20px"); }
+		
+		&.gt4 figure.double { padding-top: calc(~"152% + 3px"); }
+		&.gt10 figure.double { padding-top: calc(~"152% + 9px"); }
+		&.gt20 figure.double { padding-top: calc(~"152% + 19px"); }
+		&.gt30 figure.double { padding-top: calc(~"152% + 29px"); }
+		&.gt40 figure.double { padding-top: calc(~"152% + 39px"); } 
+	}
+
+	.ratio-vertical {
+		.portfolio-item {
+			position: absolute;
+			left: 0;
+			top: 0;
+			height: 100%;
+			width: 100%;
+		}
+		figure { padding-top: 130%;	}
+		figure.half { padding-top: 65%; }
+		figure.double { padding-top: 260%; }
+
+		&.gt4 figure.half { padding-top: calc(~"65% - 2px"); }
+		&.gt10 figure.half { padding-top: calc(~"65% - 5px"); }
+		&.gt20 figure.half { padding-top: calc(~"65% - 10px"); }
+		&.gt30 figure.half { padding-top: calc(~"65% - 15px"); }
+		&.gt40 figure.half { padding-top: calc(~"65% - 20px"); }
+		
+		&.gt4 figure.double { padding-top: calc(~"260% + 3px"); }
+		&.gt10 figure.double { padding-top: calc(~"260% + 9px"); }
+		&.gt20 figure.double { padding-top: calc(~"260% + 19px"); }
+		&.gt30 figure.double { padding-top: calc(~"260% + 29px"); }
+		&.gt40 figure.double { padding-top: calc(~"260% + 39px"); } 
+	}
+	
+	
+}
+
+@media (min-width: 200px) and (max-width: 991px) {
+	.masonry-wrp {
+		[class*="col-md-"] {
+			width: 100%;
+		}
+	}
+}

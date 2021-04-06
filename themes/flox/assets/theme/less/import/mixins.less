@@ -1,0 +1,117 @@
+// main: ../main.less, out: false, compress: false, sourceMap: false
+
+// Utility classes
+// =========================================
+.transition(@time){
+	transition: all @time ease;
+}
+.translateX(@amount){
+	transform: translate3d(@amount,0,0);
+}
+
+.translateY(@amount){
+	transform: translate3d(0,@amount,0);
+}
+.v-align {
+	transform: translateY(-50%);
+	top: 50%;
+}
+.c-align {
+	transform: translateX(-50%);
+	left: 50%;
+}
+
+.rgbaColorIn(@color, @opacity : 1){
+  @result: rgba( red(@color), green(@color), blue(@color), @opacity );
+}
+
+// Generate font classes
+// =========================================
+.f-sizes(@n, @gap, @type: all, @i: 0) when (@i =< @n) {
+	.fs@{i} { font-size: unit(@i, px); }
+	.f-sizes(@n, @gap, @type, (@i + @gap));
+}
+
+.f-line-sizes(@n, @gap, @type: all, @i: 0) when (@i =< @n) {
+	.lh-@{i} { line-height: ((@i + 10) / 10); }
+	.f-line-sizes(@n, @gap, @type, (@i + @gap));
+}
+
+// Generate navigation glass values
+// =========================================
+.nav-glass(@n, @i: 1) when (@i < @n) {
+
+	.bg-glass-dark-0@{i} {
+		background-color: rgba(0,0,0, (@i * 100% / @n));
+	}
+	
+	.bg-glass-light-0@{i} {
+		background-color: rgba(255,255,255, (@i * 100% / @n));
+	}
+	
+	.nav-glass(@n, (@i + 1));
+}
+
+
+// Generate margin classes
+// =========================================
+.mr-mixin (@a, @i) when (@a = all) 		{ .mr-@{i} { margin: unit(@i, px);} }
+.mr-mixin (@a, @i) when (@a = top) 		{ .mr-t-@{i} { margin-top: unit(@i, px); } }
+.mr-mixin (@a, @i) when (@a = right) 	{ .mr-r-@{i}, .info-obj.img-r.g@{i} .info { margin-right: unit(@i, px); } }
+.mr-mixin (@a, @i) when (@a = bottom) 	{ .mr-b-@{i}, .info-obj.img-t.g@{i} .img  { margin-bottom: unit(@i, px); } }
+.mr-mixin (@a, @i) when (@a = left) 	{ .mr-l-@{i}, .info-obj.img-l.g@{i} .info { margin-left: unit(@i, px); } }
+.mr-mixin (@a, @i) when (@a = tb)		{ .mr-tb-@{i} { margin-top: unit(@i, px); margin-bottom: unit(@i, px); } }
+.mr-mixin (@a, @i) when (@a = lr)		{ .mr-lr-@{i} { margin-left: unit(@i, px); margin-right: unit(@i, px); } }
+.mr(@n, @gap, @type: all, @i: 0) when (@i =< @n) {
+	.mr-mixin(@type, @i);
+	.mr(@n, @gap, @type, (@i + @gap));
+}
+
+.mr-mixin-r (@a, @i) when (@a = all) 		{ [data-rgen-sm*="mr-@{i}"] { margin: unit(@i, px);} }
+.mr-res(@n, @gap, @type: all, @i: 0) when (@i =< @n) {
+	.mr-mixin-r(@type, @i);
+	.mr-res(@n, @gap, @type, (@i + @gap));
+}
+
+// Generate padding classes
+// =========================================
+.pd-mixin (@a, @i) when (@a = all) 		{ .pd-@{i} { padding: unit(@i, px);} }
+.pd-mixin (@a, @i) when (@a = top) 		{ .pd-t-@{i} { padding-top: unit(@i, px); } }
+.pd-mixin (@a, @i) when (@a = right) 	{ .pd-r-@{i} { padding-right: unit(@i, px); } }
+.pd-mixin (@a, @i) when (@a = bottom) 	{ .pd-b-@{i} { padding-bottom: unit(@i, px); } }
+.pd-mixin (@a, @i) when (@a = left) 	{ .pd-l-@{i} { padding-left: unit(@i, px); } }
+.pd-mixin (@a, @i) when (@a = tb)		{ .pd-tb-@{i} { padding-top: unit(@i, px); padding-bottom: unit(@i, px); } }
+.pd-mixin (@a, @i) when (@a = lr)		{ .pd-lr-@{i} { padding-left: unit(@i, px); padding-right: unit(@i, px); } }
+.pd(@n, @gap, @type: all, @i: 0) when (@i =< @n) {
+	.pd-mixin(@type, @i);
+	.pd(@n, @gap, @type, (@i + @gap));
+}
+
+
+// Generate size classes
+// =========================================
+.wh-mixin (@a, @i) when (@a = sq) 		{ .sq@{i} { width: unit(@i, px); height: unit(@i, px); } }
+
+.wh-mixin (@a, @i) when (@a = vw) 		{ .vw@{i} { width: unit(@i, vw); } }
+.wh-mixin (@a, @i) when (@a = wper) 	{ .w@{i} { width: unit(@i, %); } }
+.wh-mixin (@a, @i) when (@a = wpx) 		{ .px-w@{i} { width: unit(@i, px); } }
+.wh-mixin (@a, @i) when (@a = wmin-px) 	{ .min-px-w@{i} { min-width: unit(@i, px); } }
+.wh-mixin (@a, @i) when (@a = wmin) 	{ .min-w@{i} { min-width: unit(@i, %); } }
+.wh-mixin (@a, @i) when (@a = wmax-px) 	{ .max-px-w@{i} { max-width: unit(@i, px); } }
+.wh-mixin (@a, @i) when (@a = wmax) 	{ .max-w@{i} { max-width: unit(@i, %); } }
+
+.wh-mixin (@a, @i) when (@a = vh) 		{ .vh@{i} { height: unit(@i, vh); } }
+.wh-mixin (@a, @i) when (@a = hper) 	{ .h@{i} { height: unit(@i, %); } }
+.wh-mixin (@a, @i) when (@a = hpx) 		{ .px-h@{i} { height: unit(@i, px); } }
+.wh-mixin (@a, @i) when (@a = hmin-px) 	{ .min-px-h@{i} { min-height: unit(@i, px); } }
+.wh-mixin (@a, @i) when (@a = hmin-vh) 	{ .min-vh-h@{i} { min-height: unit(@i, vh); } }
+.wh-mixin (@a, @i) when (@a = hmin) 	{ .min-h@{i} { min-height: unit(@i, %); } }
+.wh-mixin (@a, @i) when (@a = hmax-px) 	{ .max-px-h@{i} { max-height: unit(@i, px); } }
+.wh-mixin (@a, @i) when (@a = hmax) 	{ .max-h@{i} { max-height: unit(@i, %); } }
+
+.wh(@n, @gap, @type: all, @i: 0) when (@i =< @n) {
+	.wh-mixin(@type, @i);
+	.wh(@n, @gap, @type, (@i + @gap));
+}
+
+

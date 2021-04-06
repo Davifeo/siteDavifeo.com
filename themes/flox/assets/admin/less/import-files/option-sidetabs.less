@@ -1,0 +1,117 @@
+// main: ../admin.less, out: false, compress: false, sourceMap: false
+
+/**
+ * Unyson inner side tabs
+ */
+.ckav-side-tabs {
+	margin-bottom: 0px;
+	
+	// Side tabs in box
+	.fw-options-tabs-wrapper {
+		display: flex;
+		flex-flow: row wrap;
+		margin: -10px 0 -5px 0;
+		
+		.fw-options-tabs-contents, 
+		.fw-options-tabs-list {
+			flex: 1 100%;
+		}
+		//.fw-option-type-multi-picker > .choice-group .fw-options-tabs-wrapper > .fw-options-tabs-contents
+		.fw-options-tabs-contents {
+			//flex: 1 100%;
+			flex-basis: calc(~"100% - 211px");
+			max-width: calc(~"100% - 211px");
+			border-left: 1px solid rgba(0, 0, 0, 0.1);
+			margin-top: 0px;
+		}
+		.fw-options-tabs-list {
+			flex-basis: 200px;
+			max-width: 200px;
+			padding: 10px 0 10px 10px !important;
+			background-color: rgba(0, 0, 0, 0.03);
+			position: relative;
+			z-index: 99;
+			border: none;
+			li {
+				display: block;
+				float: none;
+				a.nav-tab {
+					border: none;
+					display: block;
+					float: none;
+					margin: 0;
+					font-size: 11px;
+					background-color: rgba(0,0,0,0.05) !important;
+					border-top: 1px solid rgba(255,255,255,0.1);
+					border-bottom: 1px solid rgba(0,0,0,0.08);
+					padding: 6px 10px 7px 10px;
+					line-height: 1.2;
+					border-radius: 3px 0 0 3px;
+				}
+			}
+			.ui-tabs-active {
+				a.nav-tab {
+					margin-right: -1px;
+					background-color: #fff !important;
+					box-shadow: -2px 1px 2px 0 rgba(0, 0, 0, 0.1);
+				}
+			}
+		}
+		>.fw-clear {
+			display: none;
+		}
+	}
+	&.tb-small {
+		.fw-options-tabs-contents {
+			flex-basis: calc(~"100% - 162px");
+			max-width: calc(~"100% - 162px");
+		}
+		.fw-options-tabs-list {
+			flex-basis: 150px;
+			max-width: 150px;
+		}
+	}
+
+	&.tb-mini {
+		.fw-options-tabs-contents {
+			flex-basis: calc(~"100% - 112px");
+			max-width: calc(~"100% - 112px");
+		}
+		.fw-options-tabs-list {
+			flex-basis: 100px;
+			max-width: 100px;
+		}
+	}
+
+	&.tb-medium {
+		.fw-options-tabs-contents {
+			flex-basis: calc(~"100% - 212px");
+			max-width: calc(~"100% - 212px");
+		}
+		.fw-options-tabs-list {
+			flex-basis: 200px;
+			max-width: 200px;
+		}
+	}
+
+	.fw-backend-option:last-child {
+		border-bottom: none;
+	}
+	
+	// Title styles	
+	&.ckav-box-title-1 {
+		> .hndle {
+			background-color: rgba(0,0,0,0.15);
+			box-shadow: 1px 0 4px 0 rgba(0,0,0,0.1);
+			border-bottom: 1px solid rgba(0,0,0,0.1);
+		}
+		margin-top: 20px;
+	}
+
+	.ckav-option-wrp-pd {
+		padding: 20px;
+	}
+}
+.mr-t-0 {
+	margin-top: 0px !important;
+}

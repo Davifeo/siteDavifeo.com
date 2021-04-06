@@ -1,0 +1,285 @@
+/**
+ * Unyson inner side tabs
+ */
+.ckav-side-tabs {
+  margin-bottom: 0px;
+}
+.ckav-side-tabs .fw-options-tabs-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  margin: -10px 0 -5px 0;
+}
+.ckav-side-tabs .fw-options-tabs-wrapper .fw-options-tabs-contents,
+.ckav-side-tabs .fw-options-tabs-wrapper .fw-options-tabs-list {
+  flex: 1 100%;
+}
+.ckav-side-tabs .fw-options-tabs-wrapper .fw-options-tabs-contents {
+  flex-basis: calc(100% - 211px);
+  max-width: calc(100% - 211px);
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 0px;
+}
+.ckav-side-tabs .fw-options-tabs-wrapper .fw-options-tabs-list {
+  flex-basis: 200px;
+  max-width: 200px;
+  padding: 10px 0 10px 10px !important;
+  background-color: rgba(0, 0, 0, 0.03);
+  position: relative;
+  z-index: 99;
+  border: none;
+}
+.ckav-side-tabs .fw-options-tabs-wrapper .fw-options-tabs-list li {
+  display: block;
+  float: none;
+}
+.ckav-side-tabs .fw-options-tabs-wrapper .fw-options-tabs-list li a.nav-tab {
+  border: none;
+  display: block;
+  float: none;
+  margin: 0;
+  font-size: 11px;
+  background-color: rgba(0, 0, 0, 0.05) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 6px 10px 7px 10px;
+  line-height: 1.2;
+  border-radius: 3px 0 0 3px;
+}
+.ckav-side-tabs .fw-options-tabs-wrapper .fw-options-tabs-list .ui-tabs-active a.nav-tab {
+  margin-right: -1px;
+  background-color: #fff !important;
+  box-shadow: -2px 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+.ckav-side-tabs .fw-options-tabs-wrapper > .fw-clear {
+  display: none;
+}
+.ckav-side-tabs.tb-small .fw-options-tabs-contents {
+  flex-basis: calc(100% - 162px);
+  max-width: calc(100% - 162px);
+}
+.ckav-side-tabs.tb-small .fw-options-tabs-list {
+  flex-basis: 150px;
+  max-width: 150px;
+}
+.ckav-side-tabs.tb-mini .fw-options-tabs-contents {
+  flex-basis: calc(100% - 112px);
+  max-width: calc(100% - 112px);
+}
+.ckav-side-tabs.tb-mini .fw-options-tabs-list {
+  flex-basis: 100px;
+  max-width: 100px;
+}
+.ckav-side-tabs.tb-medium .fw-options-tabs-contents {
+  flex-basis: calc(100% - 212px);
+  max-width: calc(100% - 212px);
+}
+.ckav-side-tabs.tb-medium .fw-options-tabs-list {
+  flex-basis: 200px;
+  max-width: 200px;
+}
+.ckav-side-tabs .fw-backend-option:last-child {
+  border-bottom: none;
+}
+.ckav-side-tabs.ckav-box-title-1 {
+  margin-top: 20px;
+}
+.ckav-side-tabs.ckav-box-title-1 > .hndle {
+  background-color: rgba(0, 0, 0, 0.15);
+  box-shadow: 1px 0 4px 0 rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.ckav-side-tabs .ckav-option-wrp-pd {
+  padding: 20px;
+}
+.mr-t-0 {
+  margin-top: 0px !important;
+}
+.ckav-box-style-1 {
+  margin-bottom: 2px;
+  box-shadow: none;
+}
+.ckav-box-style-1 .hndle {
+  background-color: rgba(0, 0, 0, 0.06);
+  font-weight: bold !important;
+}
+.fw-sole-modal-content .wp-spinner {
+  animation: fw-spin 1.2s linear infinite;
+}
+/**
+ * Image option
+ */
+.ckav-imgoption .items-wrapper {
+  display: inline-block;
+  margin-bottom: 0px !important;
+  border-radius: 4px;
+  position: relative;
+}
+.ckav-imgoption .items-wrapper .item {
+  background-color: transparent;
+}
+.ckav-imgoption .items-wrapper .item .content {
+  padding: 5px;
+}
+.ckav-imgoption .items-wrapper .item .content img {
+  display: block;
+  width: 60px;
+}
+.ckav-imgoption .items-wrapper .item .delete-item {
+  top: 1px;
+  right: -10px;
+}
+.ckav-imgoption .items-wrapper .item .sort-item {
+  display: none;
+}
+[data-fw-option-id="preview"] {
+  position: relative;
+}
+[data-fw-option-id="preview"]::before {
+  position: absolute;
+  width: 100%;
+  content: '';
+  height: 100%;
+  background-color: rgba(0, 140, 255, 0.1);
+  z-index: 2;
+  cursor: pointer;
+}
+.fw-backend-side-tabs {
+  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.1) !important;
+  overflow: hidden;
+}
+.fw-backend-side-tabs .fw-settings-form-header {
+  background-color: #23282d !important;
+  margin-top: 0px;
+}
+.fw-backend-side-tabs .fw-options-tabs-first-level > .fw-options-tabs-list ul li.ui-state-active a.nav-tab {
+  background-color: #39424a !important;
+}
+.fw-backend-side-tabs > .fw-options-tabs-wrapper > .fw-options-tabs-contents {
+  box-shadow: 1px 0 5px 0 rgba(0, 0, 0, 0.4);
+  position: relative;
+  z-index: 3;
+}
+.fw-backend-side-tabs .form-footer-buttons {
+  z-index: 4;
+}
+.fw-container-type-box .hndle {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: #23282d !important;
+}
+.fw-container-type-box .hndle .fw-html-after-title {
+  background-color: transparent !important;
+}
+.fw-container-type-box .hndle:after {
+  border-top: none !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+.fw-backend-option {
+  display: flex;
+  flex-flow: row wrap;
+}
+.fw-backend-option .fw-backend-option-input:not(.fw-backend-option-input-type-page-builder) {
+  padding-top: 5px;
+}
+.fw-backend-option .fw-backend-option-desc {
+  margin-left: 0px !important;
+  font-size: 12px;
+  font-style: italic;
+  opacity: 0.6;
+  margin-top: 10px;
+}
+.adaptive-switch {
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+}
+.adaptive-switch .switch-switcher label.switch-label {
+  color: #666;
+}
+.adaptive-switch .switch-dot span {
+  background-color: #ccc;
+}
+.adaptive-switch.switch-right {
+  background-color: #64bd1f;
+}
+.adaptive-switch.switch-right label.switch-label {
+  color: #fff;
+}
+.adaptive-switch.switch-right .switch-dot {
+  background-color: #64bd1f;
+}
+.adaptive-switch.switch-right .switch-dot span {
+  background-color: #fff;
+}
+/* Customizer options
+/******************************/
+.fw-backend-customizer-option {
+  padding: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  margin: -12px -12px 0 -12px;
+}
+.fw-backend-customizer-option .form-wrap p,
+.fw-backend-customizer-option p.description,
+.fw-backend-customizer-option p.help,
+.fw-backend-customizer-option span.description {
+  font-size: 12px;
+}
+.fw-backend-customizer-option .fw-option-type-typography-v2 .fw-inner {
+  font-size: 12px;
+  padding-top: 4px;
+}
+.fw-backend-customizer-option .fw-backend-option .fw-backend-option-desc {
+  margin-top: 0;
+}
+.fw-backend-customizer-option .customize-control-title {
+  margin-bottom: 2px;
+}
+.fw-backend-customizer-option .fw-backend-option-label {
+  margin: 0;
+  padding: 0;
+}
+.fw-backend-customizer-option .fw-backend-option-design-customizer {
+  padding: 0;
+}
+.fw-backend-option-input-type-slider .fw-inner {
+  width: 100%;
+}
+#customize-controls .customize-control-notifications-container {
+  margin: 0;
+}
+.customize-control:nth-child(even) .fw-backend-customizer-option {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.customize-control:nth-child(odd) .fw-backend-customizer-option {
+  background-color: rgba(0, 0, 0, 0.01);
+}
+.fw-frm-inline-wrp .fw-backend-option .fw-backend-option-label {
+  width: 40%;
+  padding-right: 15px;
+}
+.fw-frm-inline-wrp .fw-backend-option .fw-backend-option-input:not(.fw-backend-option-input-type-multi-picker) {
+  width: 59%;
+  padding: 0;
+}
+.fw-frm-inline-wrp .fw-backend-option .fw-backend-option-input-type-multi {
+  width: 100% !important;
+}
+/*
+ * Elementor only CSS
+ */
+.elementor-widget.align-m {
+  margin-bottom: 0;
+}
+.elementor-widget-wrap > .elementor-element.inline-flex {
+  width: auto;
+}
+.ele-imp-note {
+  font-size: 12px;
+  line-height: 1.3;
+  padding: 10px;
+  background-color: #fff6b6;
+  border: 1px solid #ffdbb6;
+  border-radius: 5px;
+}
+.elementor-control-title + .ele-imp-note {
+  margin-top: 8px;
+}

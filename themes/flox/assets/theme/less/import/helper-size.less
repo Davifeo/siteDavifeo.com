@@ -1,0 +1,93 @@
+// main: ../helper.less, out: false, compress: false, sourceMap: false
+
+.img-half {
+	width: 50%;
+	height: 100%;
+	top: 0px;
+	bottom: 0px;
+	position: absolute;
+	overflow: hidden;
+}
+
+.img-half img {
+	height: 100%;
+	width: auto;
+	max-width: none;
+}
+
+.img-half.r {
+	right: 0px;
+}
+
+.img-half.l {
+	left: 0px;
+}
+
+/* Square
+=========================*/
+.wh(100, 10, sq, 20);
+.wh(200, 20, sq, 120);
+
+
+
+/* Width - percentage size
+=========================*/
+.wh(100, 5, wper, 5);
+.wh(200, 10, wper, 110);
+
+/* Width - px size
+=========================*/
+.wh(1000, 100, wpx, 100);
+
+/* Custom size */
+.w0 {
+	width: 0px;
+}
+
+.w33 {
+	width: 33.33333333333333%;
+}
+
+
+/* Height - view port size
+=========================*/
+.wh(100, 10, vh, 50);
+.wh(200, 10, vh, 110);
+
+/* Height - percentage size
+=========================*/
+.wh(100, 50, hper, 50);
+
+/* Height - px size
+=========================*/
+.wh(1000, 100, hpx, 100);
+
+/* Width x Height - other
+=========================*/
+.w-auto {
+	width: auto !important;
+}
+
+.w-inherit {
+	width: inherit !important;
+}
+
+.w-initial {
+	width: initial !important;
+}
+
+.w-max-auto {
+	max-width: none !important;
+}
+
+.h-auto {
+	height: auto !important;
+}
+
+.h-inherit {
+	height: inherit !important;
+}
+
+.h-initial {
+	height: initial !important;
+}
